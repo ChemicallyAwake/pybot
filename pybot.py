@@ -15,6 +15,6 @@ async def server_count():
     for server in client.servers:
         for member in server.members:
             count += 1
-    await client.say("%s members" %count)
+    await client.say("%s members" %count-1)
 
 client.run(os.getenv('TOKEN'))
