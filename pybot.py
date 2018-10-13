@@ -7,7 +7,7 @@ client = commands.Bot(command_prefix=BOT_PREFIX)
 
 @client.command(name='ping')
 async def pingPong():
-    await client.say(discord.Emoji(name="ping"))
+    await client.say("pong")
 
 @client.command(name='server_count')
 async def server_count():
