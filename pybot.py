@@ -3,6 +3,7 @@ from discord.ext import commands
 import os
 
 BOT_PREFIX = ("py.")
+bot = commands.Bot(command_prefix=BOT_PREFIX)
 bot.remove_command('help')
 
 CMDS = [{'command' : 'ping',
