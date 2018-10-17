@@ -29,12 +29,10 @@ async def isAuth(cmd, msg):
                 return True
             return False
         else:
-            print("test")
             for permission in cmd.get("permissions"):
                 for userPerm in msg.channel.permissions_for(msg.author):
                     if permission in userPerm:
                         if True in userPerm:
-                            print(userPerm)
                             continue
                         else:
                             return False
