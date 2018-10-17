@@ -11,7 +11,7 @@ CMDS = [{'command' : 'ping',
         },
         {'command' : 'echo',
         'description' : 'make the bot say something',
-        'role': 'user++',]
+        'role': 'user++'
         },
         {'command' : 'rm',
         'description' : 'delete message(s)',
